@@ -18,15 +18,15 @@
     
 Syntax :
 
-*<jsp:forward page = "Relative URL" />
+*<jsp:forward page = "Relative URL" />*
 
-*<jsp:forward page="Relative URL"> 
+*<jsp:forward page="Relative URL">* 
 
-*<jsp:param name=" " value=" "/> 
+*<jsp:param name=" " value=" "/>* 
 
 ... 
 
-*<jsp:param ... /> 
+*<jsp:param ... />*
 
 *</jsp:forward>*
 
@@ -37,17 +37,17 @@ Syntax :
 
 Syntax : 
 
-*<jsp:include page="relative URL | <%= expression %>" flush="true" />
+*<jsp:include page="relative URL | <%= expression %>" flush="true" />*
 
-*<jsp:include page="relativeURL | <%= expression %>">
+*<jsp:include page="relativeURL | <%= expression %>">*
 
-*<jsp:param name="parametername" value="parametervalue | <%=expression%>" />
+*<jsp:param name="parametername" value="parametervalue | <%=expression%>" />*
 
-*</jsp:include>
+*</jsp:include>*
 
 ![image](https://github.com/PD-Repo-Point/jsp-actions-demo-proj/assets/104901724/f2c33705-b12f-4f73-8f48-be6e6512b75e)
 
-**Behaviors of JSP Include Action : **
+**Behaviors of JSP Include Action :**
 
 When the servlet container encounters a <jsp:include> action, it requests the included page then adds the 
 response into the current JSP page, where the <jsp:include> action is declared.
