@@ -83,6 +83,22 @@ A JavaBean is a Java class that should follow the following conventions:
 as getter and setter methods
 
 
+## JavaBean Properties
+
+• A JavaBean property is a named attribute that can be accessed by the user of the object. The attribute can be of any Java data type, including the classes that you define.
+
+• A JavaBean property may be read, write, read only, or write only.
+
+**1. getPropertyName ()**
+
+For example, if the property name is firstName, the method name would be 
+getFirstName() to read that property. This method is called the accessor.
+
+**2. setPropertyName ()**
+
+For example, if the property name is firstName, the method name would be 
+setFirstName() to write that property. This method is called the mutator
+
 
 # References :
 •https://www.codejava.net/java-ee/jsp/jsp-include-standard-action-examples
