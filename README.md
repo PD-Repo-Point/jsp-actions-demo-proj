@@ -19,11 +19,18 @@
 - Syntax:
 
 <jsp:forward page = "Relative URL" />
+
 <jsp:forward page="Relative URL"> 
+
 <jsp:param name=" " value=" "/> 
+
 ... 
+
 <jsp:param ... /> 
+
 </jsp:forward>
+
+
 
 
 
