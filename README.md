@@ -100,6 +100,47 @@ For example, if the property name is firstName, the method name would be
 setFirstName() to write that property. This method is called the mutator
 
 
+## Pros and Cons of JavaBean
+**Advantages:**
+• The JavaBean properties and methods can be exposed to another application.
+
+• It provides an easiness to reuse the software components.
+
+**Disadvantages:**
+• JavaBeans are mutable. So, it can't take advantages of immutable objects.
+
+• Creating the setter and getter method for each property separately may lead 
+to the boilerplate code
+
+## jsp:useBean
+
+Used to locate or instantiate a bean class.
+
+• If the bean is already exists, doesn’t create.
+
+<jsp:useBean id= "instanceName" scope= "page | request | session | application"
+
+class= "packageName.className" type= "packageName.className"
+
+beanName="packageName.className | <%= expression >" > 
+
+</jsp:useBean>
+
+
+Notes:
+
+• id: is used to identity a bean in specific scope
+
+• scope: default is page
+
+• class: instantiates the specified bean class
+
+• type: used together with ”class” and “beanName” attributes to specify type.
+
+• beanName: instantiates the bean using the java.beans.Beans.instantiate() method.
+
+• class and beanName attributes CANNOT be together
+
 # References :
 •https://www.codejava.net/java-ee/jsp/jsp-include-standard-action-examples
 
