@@ -59,13 +59,11 @@ response into the current JSP page, where the <jsp:include> action is declared.
 
 **Rules of JSP Include Action :**
 
-•The included page cannot change response status code or set headers. The servlet container will 
-ignore those attempts.
+•The included page cannot change response status code or set headers. The servlet container will ignore those attempts.
 
 •The servlet container includes response (not source code) of the included page.
 
-•Response of the included page is inserted in to the current JSP page at the position of 
-the <jsp:include> action (position-sensitive).
+•Response of the included page is inserted in to the current JSP page at the position of the *<jsp:include>* action (position-sensitive).
 
 •If URL of the included page starts with a slash (/), the servlet container will interpret the page as relative to the web application context path; if the URL starts without a slash, the container will treat the page as relative to the current JSP page.
 
@@ -73,8 +71,20 @@ the <jsp:include> action (position-sensitive).
 
 •The servlet container will throw an exception if it could not find the included page
 
+## JavaBean
 
-**References :**
+A JavaBean is a Java class that should follow the following conventions:
+
+• It should have a no-arg constructor.
+
+• It should be Serializable.
+
+• It should provide methods to set and get the values of the properties, known 
+as getter and setter methods
+
+
+
+# References :
 •https://www.codejava.net/java-ee/jsp/jsp-include-standard-action-examples
 
 
