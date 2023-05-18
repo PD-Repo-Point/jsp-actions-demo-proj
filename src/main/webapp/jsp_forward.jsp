@@ -13,7 +13,14 @@
         <jsp:param name="company" value="Prodevans"/>
     </jsp:forward>
 
+<%--
+    if (true) {
+        _jspx_page_context.forward("result.jsp",http://localhost/jsp-action-demo/result.jsp?programme=Java Dev Training&company=Prodevans);
+    return;
+}
+--%>
     <%
+
         System.out.println("After JSP forward Action .... ");
     %>
 </body>
