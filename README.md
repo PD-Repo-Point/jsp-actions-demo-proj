@@ -18,7 +18,6 @@
     
 Syntax :
 
-*<jsp:forward page = "Relative URL" />*
 
 *<jsp:forward page="Relative URL">* 
 
