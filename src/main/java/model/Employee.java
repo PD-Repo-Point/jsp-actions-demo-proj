@@ -1,0 +1,22 @@
+package model;
+
+import java.io.Serializable;
+// Employee emp = new Employee();
+//Person p = emp;
+// -> Employee extends Person
+
+public class Employee extends Person implements Serializable {
+    private Integer salary=10000;
+
+    public Employee(){
+
+    }
+
+    public Integer getSalary() {
+        return salary;
+    }
+
+    public void setSalary(Integer salary) {
+        this.salary = salary;
+    }
+}
